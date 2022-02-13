@@ -10,14 +10,12 @@ public class Main {
             if (x > 0) {
                 if (x % 2 == 0) {
                     result.add(x);
-                } else {
                     continue;
                 }
-            } else {
                 continue;
             }
-            Collections.sort(result);
         }
+        Collections.sort(result);
         System.out.println(result);
     }
 }
